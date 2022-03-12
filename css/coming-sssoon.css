@@ -13,7 +13,14 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
 
-@import url(//fonts.googleapis.com/css?family=Grand+Hotel);
+@font-face {
+    font-family: 'grand_hotelregular';
+    src: url('/font/grandhotel-regular-webfont.woff2') format('woff2'),
+    url('/font/grandhotel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     
 }
@@ -737,7 +744,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     z-index: 3;
 }
 .main .logo.cursive{
-    font-family: 'Grand Hotel',cursive;
+    font-family: 'grand_hotelregular';
     font-size: 82px;
     
 }
