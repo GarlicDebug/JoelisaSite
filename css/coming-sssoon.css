@@ -21,6 +21,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'poppinslight';
+    src: url('/font/poppins-light-webfont.woff2') format('woff2'),
+    url('/font/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
     
 }
@@ -744,7 +753,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     z-index: 3;
 }
 .main .logo.cursive{
-    font-family: 'grand_hotelregular';
+    font-family: 'poppinslight';
     font-size: 82px;
     
 }
